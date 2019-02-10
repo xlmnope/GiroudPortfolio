@@ -20,13 +20,12 @@ function bindfilters(){
     console.log('filterclass: ' + filterclass)
     if (filterclass == "Software Engineering") {
       $(".pm").hide();
-            //to do: only do this if filteroptions don't already exit..
       
       if (subfilters == false ) {
         subfilters = true
-        $(".subfilter").append('<a href="#" data-filter="js" class="filteroption java">Javascript</a>'); 
-        $(".subfilter").append('<a href="#" data-filter="node" class="filteroption">Node.js</a>'); 
-        $(".subfilter").append('<a href="#" data-filter="react" class="filteroption">React</a>'); 
+        $(".filter").append('<a href="#" data-filter="js" class="filteroption java">Javascript</a>'); 
+        $(".filter").append('<a href="#" data-filter="node" class="filteroption">Node.js</a>'); 
+        $(".filter").append('<a href="#" data-filter="react" class="filteroption">React</a>'); 
       }
       
       //append other filter options, javascript, etc.

@@ -1,6 +1,11 @@
 
 
+.active {
+  text-decoration: teal;
+  text-decoration-line: underline;  
+  color:black;
 
+}
 
 .subfilter {
   padding-left: 12em;
